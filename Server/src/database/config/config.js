@@ -1,19 +1,19 @@
 {
-  "development": {
+  "development"= {
     "username": "root",
     "password": null,
     "database": "personalBudgest",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
-  "test": {
+  "test"= {
     "username": "root",
     "password": null,
     "database": "personalBudgest",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
-  "production": {
+  "production"= {
     "username": "root",
     "password": null,
     "database": "personalBudgest",
