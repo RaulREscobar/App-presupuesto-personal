@@ -1,4 +1,4 @@
-{
+modeule.exports = {
   "development": {
     "username": "root",
     "password": null,
@@ -9,14 +9,14 @@
   "test": {
     "username": "root",
     "password": null,
-    "database": "database_test",
+    "database": "personalBudgest",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
     "password": null,
-    "database": "database_production",
+    "database": "personalBudgest",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }

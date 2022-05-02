@@ -20,7 +20,7 @@ module.exports = (sequelize,dataTypes) => {
             type: dataTypes.DATEONLY,
             allowNull: false
         },
-        tipe:{
+        type:{
             type: dataTypes.STRING(50),
             allowNull: false
         },
@@ -37,14 +37,6 @@ module.exports = (sequelize,dataTypes) => {
     }
 
     const Operations = sequelize.define(alias,cols,config)
-
-    Users.associate = models => {
-        Users.belongsTo( models.Users, {
-            as: "user",
-            foreignKey: "user_id"
-        })
-    }
-
     return Operations
 
 }   
